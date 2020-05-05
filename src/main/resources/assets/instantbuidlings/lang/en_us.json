@@ -1,8 +1,12 @@
 {
+  "block.instantbuidlings.tree": "Tree",
   "block.instantbuidlings.villagerhouse": "Villager House",
   "block.instantbuidlings.docks": "Docks",
+  "block.instantbuidlings.windmill": "Windmill",
   "block.instantbuidlings.barracks": "Barracks",
   "block.instantbuidlings.guardpost": "GuardPost",
+  "block.instantbuidlings.boat": "Boat",
   "block.instantbuidlings.fountain": "Fountain",
+  "block.instantbuidlings.shop": "Shop",
   "block.instantbuidlings.strangechurch": "Strange Church"
 }
