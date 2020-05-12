@@ -360,29 +360,399 @@
       "compiles": true,
       "locked_code": false,
       "ids": {}
+    },
+    {
+      "name": "Place_oldchurch",
+      "type": "procedure",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "int"
+          },
+          {
+            "name": "y",
+            "type": "int"
+          },
+          {
+            "name": "z",
+            "type": "int"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Place_gate",
+      "type": "procedure",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "int"
+          },
+          {
+            "name": "y",
+            "type": "int"
+          },
+          {
+            "name": "z",
+            "type": "int"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Oldchurch",
+      "type": "block",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Gate",
+      "type": "block",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Place_lighthouse",
+      "type": "procedure",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "int"
+          },
+          {
+            "name": "y",
+            "type": "int"
+          },
+          {
+            "name": "z",
+            "type": "int"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Place_bridge",
+      "type": "procedure",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "int"
+          },
+          {
+            "name": "y",
+            "type": "int"
+          },
+          {
+            "name": "z",
+            "type": "int"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Lighthouse",
+      "type": "block",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Bridge",
+      "type": "block",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Place_barn",
+      "type": "procedure",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "int"
+          },
+          {
+            "name": "y",
+            "type": "int"
+          },
+          {
+            "name": "z",
+            "type": "int"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Barn",
+      "type": "block",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Housetwo",
+      "type": "block",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Place_housetwo",
+      "type": "procedure",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "int"
+          },
+          {
+            "name": "y",
+            "type": "int"
+          },
+          {
+            "name": "z",
+            "type": "int"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Place_tower",
+      "type": "procedure",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "int"
+          },
+          {
+            "name": "y",
+            "type": "int"
+          },
+          {
+            "name": "z",
+            "type": "int"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Tower",
+      "type": "block",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Place_waterfall",
+      "type": "procedure",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "int"
+          },
+          {
+            "name": "y",
+            "type": "int"
+          },
+          {
+            "name": "z",
+            "type": "int"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Waterfall",
+      "type": "block",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Place_wall",
+      "type": "procedure",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "int"
+          },
+          {
+            "name": "y",
+            "type": "int"
+          },
+          {
+            "name": "z",
+            "type": "int"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Wall",
+      "type": "block",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Place_snakespawn",
+      "type": "procedure",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "int"
+          },
+          {
+            "name": "y",
+            "type": "int"
+          },
+          {
+            "name": "z",
+            "type": "int"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Snakespawn",
+      "type": "block",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "block.instantbuidlings.tree": "Tree",
+      "block.instantbuidlings.oldchurch": "Old Church",
       "block.instantbuidlings.villagerhouse": "Villager House",
       "block.instantbuidlings.docks": "Docks",
+      "block.instantbuidlings.gate": "Gate",
       "block.instantbuidlings.windmill": "Windmill",
       "block.instantbuidlings.barracks": "Barracks",
       "block.instantbuidlings.guardpost": "GuardPost",
-      "block.instantbuidlings.boat": "Boat",
+      "block.instantbuidlings.snakespawn": "Snake Spawn",
       "block.instantbuidlings.fountain": "Fountain",
+      "block.instantbuidlings.waterfall": "Waterfall",
+      "block.instantbuidlings.strangechurch": "Strange Church",
+      "block.instantbuidlings.tower": "Tower",
+      "block.instantbuidlings.housetwo": "House two",
+      "block.instantbuidlings.tree": "Tree",
+      "block.instantbuidlings.boat": "Boat",
+      "block.instantbuidlings.bridge": "Bridge",
+      "block.instantbuidlings.wall": "Wall",
       "block.instantbuidlings.shop": "Shop",
-      "block.instantbuidlings.strangechurch": "Strange Church"
+      "block.instantbuidlings.barn": "Barn",
+      "block.instantbuidlings.lighthouse": "Lighthouse"
     }
   },
   "workspaceSettings": {
     "modid": "instantbuidlings",
     "modName": "InstantBuidlings",
     "version": "1.0.0",
-    "author": "chivas, MCreator",
+    "author": "chivas477",
     "websiteURL": "https://mcreator.net",
     "disableForgeVersionCheck": true,
     "serverSideOnly": false,
@@ -391,7 +761,8 @@
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "1.14.4",
-    "modElementsPackage": "net.mcreator.instantbuidlings",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.instantbuidlings",
     "lockBaseModFiles": false
   },
   "mcreatorVersion": 202000214217

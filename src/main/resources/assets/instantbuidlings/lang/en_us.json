@@ -1,12 +1,22 @@
 {
-  "block.instantbuidlings.tree": "Tree",
+  "block.instantbuidlings.oldchurch": "Old Church",
   "block.instantbuidlings.villagerhouse": "Villager House",
   "block.instantbuidlings.docks": "Docks",
+  "block.instantbuidlings.gate": "Gate",
   "block.instantbuidlings.windmill": "Windmill",
   "block.instantbuidlings.barracks": "Barracks",
   "block.instantbuidlings.guardpost": "GuardPost",
-  "block.instantbuidlings.boat": "Boat",
+  "block.instantbuidlings.snakespawn": "Snake Spawn",
   "block.instantbuidlings.fountain": "Fountain",
+  "block.instantbuidlings.waterfall": "Waterfall",
+  "block.instantbuidlings.strangechurch": "Strange Church",
+  "block.instantbuidlings.tower": "Tower",
+  "block.instantbuidlings.housetwo": "House two",
+  "block.instantbuidlings.tree": "Tree",
+  "block.instantbuidlings.boat": "Boat",
+  "block.instantbuidlings.bridge": "Bridge",
+  "block.instantbuidlings.wall": "Wall",
   "block.instantbuidlings.shop": "Shop",
-  "block.instantbuidlings.strangechurch": "Strange Church"
+  "block.instantbuidlings.barn": "Barn",
+  "block.instantbuidlings.lighthouse": "Lighthouse"
 }

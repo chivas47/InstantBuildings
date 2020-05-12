@@ -7,7 +7,7 @@ version="1.0.0"
 displayName="InstantBuidlings"
 credits="Created using mod maker MCreator - https://mcreator.net/about"
 displayURL="https://mcreator.net"
-authors="chivas, MCreator"
+authors="chivas477"
 
 [[dependencies.instantbuidlings]]
     modId="minecraft"
