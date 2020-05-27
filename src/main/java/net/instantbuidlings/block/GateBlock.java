@@ -17,16 +17,16 @@ import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
 import net.instantbuidlings.procedures.Place_gateProcedure;
-import net.instantbuidlings.InstantBuidlingsElements;
+import net.instantbuidlings.InstantbuidlingsModElements;
 
 import java.util.List;
 import java.util.Collections;
 
-@InstantBuidlingsElements.ModElement.Tag
-public class GateBlock extends InstantBuidlingsElements.ModElement {
+@InstantbuidlingsModElements.ModElement.Tag
+public class GateBlock extends InstantbuidlingsModElements.ModElement {
 	@ObjectHolder("instantbuidlings:gate")
 	public static final Block block = null;
-	public GateBlock(InstantBuidlingsElements instance) {
+	public GateBlock(InstantbuidlingsModElements instance) {
 		super(instance, 24);
 	}
 

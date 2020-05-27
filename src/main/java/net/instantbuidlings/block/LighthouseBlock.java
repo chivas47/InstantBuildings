@@ -17,16 +17,16 @@ import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
 import net.instantbuidlings.procedures.Place_lighthouseProcedure;
-import net.instantbuidlings.InstantBuidlingsElements;
+import net.instantbuidlings.InstantbuidlingsModElements;
 
 import java.util.List;
 import java.util.Collections;
 
-@InstantBuidlingsElements.ModElement.Tag
-public class LighthouseBlock extends InstantBuidlingsElements.ModElement {
+@InstantbuidlingsModElements.ModElement.Tag
+public class LighthouseBlock extends InstantbuidlingsModElements.ModElement {
 	@ObjectHolder("instantbuidlings:lighthouse")
 	public static final Block block = null;
-	public LighthouseBlock(InstantBuidlingsElements instance) {
+	public LighthouseBlock(InstantbuidlingsModElements instance) {
 		super(instance, 27);
 	}
 

@@ -17,16 +17,16 @@ import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
 import net.instantbuidlings.procedures.Place_guardpostProcedure;
-import net.instantbuidlings.InstantBuidlingsElements;
+import net.instantbuidlings.InstantbuidlingsModElements;
 
 import java.util.List;
 import java.util.Collections;
 
-@InstantBuidlingsElements.ModElement.Tag
-public class GuardpostBlock extends InstantBuidlingsElements.ModElement {
+@InstantbuidlingsModElements.ModElement.Tag
+public class GuardpostBlock extends InstantbuidlingsModElements.ModElement {
 	@ObjectHolder("instantbuidlings:guardpost")
 	public static final Block block = null;
-	public GuardpostBlock(InstantBuidlingsElements instance) {
+	public GuardpostBlock(InstantbuidlingsModElements instance) {
 		super(instance, 5);
 	}
 

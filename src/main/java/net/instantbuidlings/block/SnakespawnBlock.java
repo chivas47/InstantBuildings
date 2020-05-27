@@ -17,16 +17,16 @@ import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
 import net.instantbuidlings.procedures.Place_snakespawnProcedure;
-import net.instantbuidlings.InstantBuidlingsElements;
+import net.instantbuidlings.InstantbuidlingsModElements;
 
 import java.util.List;
 import java.util.Collections;
 
-@InstantBuidlingsElements.ModElement.Tag
-public class SnakespawnBlock extends InstantBuidlingsElements.ModElement {
+@InstantbuidlingsModElements.ModElement.Tag
+public class SnakespawnBlock extends InstantbuidlingsModElements.ModElement {
 	@ObjectHolder("instantbuidlings:snakespawn")
 	public static final Block block = null;
-	public SnakespawnBlock(InstantBuidlingsElements instance) {
+	public SnakespawnBlock(InstantbuidlingsModElements instance) {
 		super(instance, 41);
 	}
 

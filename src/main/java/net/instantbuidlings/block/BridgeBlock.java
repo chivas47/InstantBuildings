@@ -17,16 +17,16 @@ import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
 import net.instantbuidlings.procedures.Place_bridgeProcedure;
-import net.instantbuidlings.InstantBuidlingsElements;
+import net.instantbuidlings.InstantbuidlingsModElements;
 
 import java.util.List;
 import java.util.Collections;
 
-@InstantBuidlingsElements.ModElement.Tag
-public class BridgeBlock extends InstantBuidlingsElements.ModElement {
+@InstantbuidlingsModElements.ModElement.Tag
+public class BridgeBlock extends InstantbuidlingsModElements.ModElement {
 	@ObjectHolder("instantbuidlings:bridge")
 	public static final Block block = null;
-	public BridgeBlock(InstantBuidlingsElements instance) {
+	public BridgeBlock(InstantbuidlingsModElements instance) {
 		super(instance, 28);
 	}
 

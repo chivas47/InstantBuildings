@@ -13,10 +13,12 @@
   "block.instantbuidlings.tower": "Tower",
   "block.instantbuidlings.housetwo": "House two",
   "block.instantbuidlings.tree": "Tree",
+  "block.instantbuidlings.autodoor": "Redstone Door",
   "block.instantbuidlings.boat": "Boat",
   "block.instantbuidlings.bridge": "Bridge",
   "block.instantbuidlings.wall": "Wall",
   "block.instantbuidlings.shop": "Shop",
+  "block.instantbuidlings.farm": "Redstone Farm",
   "block.instantbuidlings.barn": "Barn",
   "block.instantbuidlings.lighthouse": "Lighthouse"
 }

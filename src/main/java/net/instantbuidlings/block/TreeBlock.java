@@ -17,16 +17,16 @@ import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
 import net.instantbuidlings.procedures.Place_treeProcedure;
-import net.instantbuidlings.InstantBuidlingsElements;
+import net.instantbuidlings.InstantbuidlingsModElements;
 
 import java.util.List;
 import java.util.Collections;
 
-@InstantBuidlingsElements.ModElement.Tag
-public class TreeBlock extends InstantBuidlingsElements.ModElement {
+@InstantbuidlingsModElements.ModElement.Tag
+public class TreeBlock extends InstantbuidlingsModElements.ModElement {
 	@ObjectHolder("instantbuidlings:tree")
 	public static final Block block = null;
-	public TreeBlock(InstantBuidlingsElements instance) {
+	public TreeBlock(InstantbuidlingsModElements instance) {
 		super(instance, 19);
 	}
 

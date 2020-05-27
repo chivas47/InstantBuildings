@@ -17,16 +17,16 @@ import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
 import net.instantbuidlings.procedures.Place_towerProcedure;
-import net.instantbuidlings.InstantBuidlingsElements;
+import net.instantbuidlings.InstantbuidlingsModElements;
 
 import java.util.List;
 import java.util.Collections;
 
-@InstantBuidlingsElements.ModElement.Tag
-public class TowerBlock extends InstantBuidlingsElements.ModElement {
+@InstantbuidlingsModElements.ModElement.Tag
+public class TowerBlock extends InstantbuidlingsModElements.ModElement {
 	@ObjectHolder("instantbuidlings:tower")
 	public static final Block block = null;
-	public TowerBlock(InstantBuidlingsElements instance) {
+	public TowerBlock(InstantbuidlingsModElements instance) {
 		super(instance, 35);
 	}
 

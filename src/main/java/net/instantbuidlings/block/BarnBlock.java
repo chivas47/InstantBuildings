@@ -17,16 +17,16 @@ import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
 import net.instantbuidlings.procedures.Place_barnProcedure;
-import net.instantbuidlings.InstantBuidlingsElements;
+import net.instantbuidlings.InstantbuidlingsModElements;
 
 import java.util.List;
 import java.util.Collections;
 
-@InstantBuidlingsElements.ModElement.Tag
-public class BarnBlock extends InstantBuidlingsElements.ModElement {
+@InstantbuidlingsModElements.ModElement.Tag
+public class BarnBlock extends InstantbuidlingsModElements.ModElement {
 	@ObjectHolder("instantbuidlings:barn")
 	public static final Block block = null;
-	public BarnBlock(InstantBuidlingsElements instance) {
+	public BarnBlock(InstantbuidlingsModElements instance) {
 		super(instance, 31);
 	}
 

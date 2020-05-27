@@ -40,31 +40,32 @@ import java.util.ArrayList;
 import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Retention;
 
-public class InstantBuidlingsElements {
+public class InstantbuidlingsModElements {
 	public final List<ModElement> elements = new ArrayList<>();
 	public final List<Supplier<Block>> blocks = new ArrayList<>();
 	public final List<Supplier<Item>> items = new ArrayList<>();
 	public final List<Supplier<Biome>> biomes = new ArrayList<>();
 	public final List<Supplier<EntityType<?>>> entities = new ArrayList<>();
 	public static Map<ResourceLocation, net.minecraft.util.SoundEvent> sounds = new HashMap<>();
-	public InstantBuidlingsElements() {
+	public InstantbuidlingsModElements() {
 		try {
 			ModFileScanData modFileInfo = ModList.get().getModFileById("instantbuidlings").getFile().getScanResult();
 			Set<ModFileScanData.AnnotationData> annotations = modFileInfo.getAnnotations();
 			for (ModFileScanData.AnnotationData annotationData : annotations) {
 				if (annotationData.getAnnotationType().getClassName().equals(ModElement.Tag.class.getName())) {
 					Class<?> clazz = Class.forName(annotationData.getClassType().getClassName());
-					if (clazz.getSuperclass() == InstantBuidlingsElements.ModElement.class)
-						elements.add((InstantBuidlingsElements.ModElement) clazz.getConstructor(this.getClass()).newInstance(this));
+					if (clazz.getSuperclass() == InstantbuidlingsModElements.ModElement.class)
+						elements.add((InstantbuidlingsModElements.ModElement) clazz.getConstructor(this.getClass()).newInstance(this));
 				}
 			}
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
 		Collections.sort(elements);
-		elements.forEach(InstantBuidlingsElements.ModElement::initElements);
-		this.addNetworkMessage(InstantBuidlingsVariables.WorldSavedDataSyncMessage.class, InstantBuidlingsVariables.WorldSavedDataSyncMessage::buffer,
-				InstantBuidlingsVariables.WorldSavedDataSyncMessage::new, InstantBuidlingsVariables.WorldSavedDataSyncMessage::handler);
+		elements.forEach(InstantbuidlingsModElements.ModElement::initElements);
+		this.addNetworkMessage(InstantbuidlingsModVariables.WorldSavedDataSyncMessage.class,
+				InstantbuidlingsModVariables.WorldSavedDataSyncMessage::buffer, InstantbuidlingsModVariables.WorldSavedDataSyncMessage::new,
+				InstantbuidlingsModVariables.WorldSavedDataSyncMessage::handler);
 		MinecraftForge.EVENT_BUS.register(this);
 	}
 
@@ -76,30 +77,30 @@ public class InstantBuidlingsElements {
 	@SubscribeEvent
 	public void onPlayerLoggedIn(PlayerEvent.PlayerLoggedInEvent event) {
 		if (!event.getPlayer().world.isRemote) {
-			WorldSavedData mapdata = InstantBuidlingsVariables.MapVariables.get(event.getPlayer().world);
-			WorldSavedData worlddata = InstantBuidlingsVariables.WorldVariables.get(event.getPlayer().world);
+			WorldSavedData mapdata = InstantbuidlingsModVariables.MapVariables.get(event.getPlayer().world);
+			WorldSavedData worlddata = InstantbuidlingsModVariables.WorldVariables.get(event.getPlayer().world);
 			if (mapdata != null)
-				InstantBuidlings.PACKET_HANDLER.send(PacketDistributor.PLAYER.with(() -> (ServerPlayerEntity) event.getPlayer()),
-						new InstantBuidlingsVariables.WorldSavedDataSyncMessage(0, mapdata));
+				InstantbuidlingsMod.PACKET_HANDLER.send(PacketDistributor.PLAYER.with(() -> (ServerPlayerEntity) event.getPlayer()),
+						new InstantbuidlingsModVariables.WorldSavedDataSyncMessage(0, mapdata));
 			if (worlddata != null)
-				InstantBuidlings.PACKET_HANDLER.send(PacketDistributor.PLAYER.with(() -> (ServerPlayerEntity) event.getPlayer()),
-						new InstantBuidlingsVariables.WorldSavedDataSyncMessage(1, worlddata));
+				InstantbuidlingsMod.PACKET_HANDLER.send(PacketDistributor.PLAYER.with(() -> (ServerPlayerEntity) event.getPlayer()),
+						new InstantbuidlingsModVariables.WorldSavedDataSyncMessage(1, worlddata));
 		}
 	}
 
 	@SubscribeEvent
 	public void onPlayerChangedDimension(PlayerEvent.PlayerChangedDimensionEvent event) {
 		if (!event.getPlayer().world.isRemote) {
-			WorldSavedData worlddata = InstantBuidlingsVariables.WorldVariables.get(event.getPlayer().world);
+			WorldSavedData worlddata = InstantbuidlingsModVariables.WorldVariables.get(event.getPlayer().world);
 			if (worlddata != null)
-				InstantBuidlings.PACKET_HANDLER.send(PacketDistributor.PLAYER.with(() -> (ServerPlayerEntity) event.getPlayer()),
-						new InstantBuidlingsVariables.WorldSavedDataSyncMessage(1, worlddata));
+				InstantbuidlingsMod.PACKET_HANDLER.send(PacketDistributor.PLAYER.with(() -> (ServerPlayerEntity) event.getPlayer()),
+						new InstantbuidlingsModVariables.WorldSavedDataSyncMessage(1, worlddata));
 		}
 	}
 	private int messageID = 0;
 	public <T> void addNetworkMessage(Class<T> messageType, BiConsumer<T, PacketBuffer> encoder, Function<PacketBuffer, T> decoder,
 			BiConsumer<T, Supplier<NetworkEvent.Context>> messageConsumer) {
-		InstantBuidlings.PACKET_HANDLER.registerMessage(messageID, messageType, encoder, decoder, messageConsumer);
+		InstantbuidlingsMod.PACKET_HANDLER.registerMessage(messageID, messageType, encoder, decoder, messageConsumer);
 		messageID++;
 	}
 
@@ -126,9 +127,9 @@ public class InstantBuidlingsElements {
 		@Retention(RetentionPolicy.RUNTIME)
 		public @interface Tag {
 		}
-		protected final InstantBuidlingsElements elements;
+		protected final InstantbuidlingsModElements elements;
 		protected final int sortid;
-		public ModElement(InstantBuidlingsElements elements, int sortid) {
+		public ModElement(InstantbuidlingsModElements elements, int sortid) {
 			this.elements = elements;
 			this.sortid = sortid;
 		}

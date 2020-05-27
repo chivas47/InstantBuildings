@@ -720,6 +720,82 @@
       "compiles": true,
       "locked_code": false,
       "ids": {}
+    },
+    {
+      "name": "Placetreefarm",
+      "type": "procedure",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "placetreefarm",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "int"
+          },
+          {
+            "name": "y",
+            "type": "int"
+          },
+          {
+            "name": "z",
+            "type": "int"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Placeautodoor",
+      "type": "procedure",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "placeautodoor",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "int"
+          },
+          {
+            "name": "y",
+            "type": "int"
+          },
+          {
+            "name": "z",
+            "type": "int"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Farm",
+      "type": "block",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "farm"
+    },
+    {
+      "name": "Autodoor",
+      "type": "block",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "autodoor"
     }
   ],
   "variable_elements": [],
@@ -740,10 +816,12 @@
       "block.instantbuidlings.tower": "Tower",
       "block.instantbuidlings.housetwo": "House two",
       "block.instantbuidlings.tree": "Tree",
+      "block.instantbuidlings.autodoor": "Redstone Door",
       "block.instantbuidlings.boat": "Boat",
       "block.instantbuidlings.bridge": "Bridge",
       "block.instantbuidlings.wall": "Wall",
       "block.instantbuidlings.shop": "Shop",
+      "block.instantbuidlings.farm": "Redstone Farm",
       "block.instantbuidlings.barn": "Barn",
       "block.instantbuidlings.lighthouse": "Lighthouse"
     }
@@ -765,5 +843,5 @@
     "modElementsPackage": "net.instantbuidlings",
     "lockBaseModFiles": false
   },
-  "mcreatorVersion": 202000214217
+  "mcreatorVersion": 202000322116
 }

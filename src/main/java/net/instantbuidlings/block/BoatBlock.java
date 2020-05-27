@@ -17,16 +17,16 @@ import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
 import net.instantbuidlings.procedures.Place_boatProcedure;
-import net.instantbuidlings.InstantBuidlingsElements;
+import net.instantbuidlings.InstantbuidlingsModElements;
 
 import java.util.List;
 import java.util.Collections;
 
-@InstantBuidlingsElements.ModElement.Tag
-public class BoatBlock extends InstantBuidlingsElements.ModElement {
+@InstantbuidlingsModElements.ModElement.Tag
+public class BoatBlock extends InstantbuidlingsModElements.ModElement {
 	@ObjectHolder("instantbuidlings:boat")
 	public static final Block block = null;
-	public BoatBlock(InstantBuidlingsElements instance) {
+	public BoatBlock(InstantbuidlingsModElements instance) {
 		super(instance, 17);
 	}
 

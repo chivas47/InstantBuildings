@@ -17,16 +17,16 @@ import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
 import net.instantbuidlings.procedures.Place_housetwoProcedure;
-import net.instantbuidlings.InstantBuidlingsElements;
+import net.instantbuidlings.InstantbuidlingsModElements;
 
 import java.util.List;
 import java.util.Collections;
 
-@InstantBuidlingsElements.ModElement.Tag
-public class HousetwoBlock extends InstantBuidlingsElements.ModElement {
+@InstantbuidlingsModElements.ModElement.Tag
+public class HousetwoBlock extends InstantbuidlingsModElements.ModElement {
 	@ObjectHolder("instantbuidlings:housetwo")
 	public static final Block block = null;
-	public HousetwoBlock(InstantBuidlingsElements instance) {
+	public HousetwoBlock(InstantbuidlingsModElements instance) {
 		super(instance, 32);
 	}
 

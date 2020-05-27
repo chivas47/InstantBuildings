@@ -17,16 +17,16 @@ import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
 import net.instantbuidlings.procedures.PlacebarracksProcedure;
-import net.instantbuidlings.InstantBuidlingsElements;
+import net.instantbuidlings.InstantbuidlingsModElements;
 
 import java.util.List;
 import java.util.Collections;
 
-@InstantBuidlingsElements.ModElement.Tag
-public class BarracksBlock extends InstantBuidlingsElements.ModElement {
+@InstantbuidlingsModElements.ModElement.Tag
+public class BarracksBlock extends InstantbuidlingsModElements.ModElement {
 	@ObjectHolder("instantbuidlings:barracks")
 	public static final Block block = null;
-	public BarracksBlock(InstantBuidlingsElements instance) {
+	public BarracksBlock(InstantbuidlingsModElements instance) {
 		super(instance, 1);
 	}
 

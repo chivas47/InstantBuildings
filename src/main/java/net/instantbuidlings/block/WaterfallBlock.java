@@ -17,16 +17,16 @@ import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
 import net.instantbuidlings.procedures.Place_waterfallProcedure;
-import net.instantbuidlings.InstantBuidlingsElements;
+import net.instantbuidlings.InstantbuidlingsModElements;
 
 import java.util.List;
 import java.util.Collections;
 
-@InstantBuidlingsElements.ModElement.Tag
-public class WaterfallBlock extends InstantBuidlingsElements.ModElement {
+@InstantbuidlingsModElements.ModElement.Tag
+public class WaterfallBlock extends InstantbuidlingsModElements.ModElement {
 	@ObjectHolder("instantbuidlings:waterfall")
 	public static final Block block = null;
-	public WaterfallBlock(InstantBuidlingsElements instance) {
+	public WaterfallBlock(InstantbuidlingsModElements instance) {
 		super(instance, 37);
 	}
 

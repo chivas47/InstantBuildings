@@ -17,16 +17,16 @@ import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
 import net.instantbuidlings.procedures.Place_wallProcedure;
-import net.instantbuidlings.InstantBuidlingsElements;
+import net.instantbuidlings.InstantbuidlingsModElements;
 
 import java.util.List;
 import java.util.Collections;
 
-@InstantBuidlingsElements.ModElement.Tag
-public class WallBlock extends InstantBuidlingsElements.ModElement {
+@InstantbuidlingsModElements.ModElement.Tag
+public class WallBlock extends InstantbuidlingsModElements.ModElement {
 	@ObjectHolder("instantbuidlings:wall")
 	public static final Block block = null;
-	public WallBlock(InstantBuidlingsElements instance) {
+	public WallBlock(InstantbuidlingsModElements instance) {
 		super(instance, 39);
 	}
 

@@ -17,16 +17,16 @@ import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
 import net.instantbuidlings.procedures.Place_windmillProcedure;
-import net.instantbuidlings.InstantBuidlingsElements;
+import net.instantbuidlings.InstantbuidlingsModElements;
 
 import java.util.List;
 import java.util.Collections;
 
-@InstantBuidlingsElements.ModElement.Tag
-public class WindmillBlock extends InstantBuidlingsElements.ModElement {
+@InstantbuidlingsModElements.ModElement.Tag
+public class WindmillBlock extends InstantbuidlingsModElements.ModElement {
 	@ObjectHolder("instantbuidlings:windmill")
 	public static final Block block = null;
-	public WindmillBlock(InstantBuidlingsElements instance) {
+	public WindmillBlock(InstantbuidlingsModElements instance) {
 		super(instance, 20);
 	}
 

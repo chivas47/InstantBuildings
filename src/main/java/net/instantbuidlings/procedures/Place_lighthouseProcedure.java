@@ -10,11 +10,11 @@ import net.minecraft.util.Rotation;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.Mirror;
 
-import net.instantbuidlings.InstantBuidlingsElements;
+import net.instantbuidlings.InstantbuidlingsModElements;
 
-@InstantBuidlingsElements.ModElement.Tag
-public class Place_lighthouseProcedure extends InstantBuidlingsElements.ModElement {
-	public Place_lighthouseProcedure(InstantBuidlingsElements instance) {
+@InstantbuidlingsModElements.ModElement.Tag
+public class Place_lighthouseProcedure extends InstantbuidlingsModElements.ModElement {
+	public Place_lighthouseProcedure(InstantbuidlingsModElements instance) {
 		super(instance, 25);
 	}
 

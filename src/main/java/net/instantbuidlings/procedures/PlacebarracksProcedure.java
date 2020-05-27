@@ -10,11 +10,11 @@ import net.minecraft.util.Rotation;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.Mirror;
 
-import net.instantbuidlings.InstantBuidlingsElements;
+import net.instantbuidlings.InstantbuidlingsModElements;
 
-@InstantBuidlingsElements.ModElement.Tag
-public class PlacebarracksProcedure extends InstantBuidlingsElements.ModElement {
-	public PlacebarracksProcedure(InstantBuidlingsElements instance) {
+@InstantbuidlingsModElements.ModElement.Tag
+public class PlacebarracksProcedure extends InstantbuidlingsModElements.ModElement {
+	public PlacebarracksProcedure(InstantbuidlingsModElements instance) {
 		super(instance, 7);
 	}
 
