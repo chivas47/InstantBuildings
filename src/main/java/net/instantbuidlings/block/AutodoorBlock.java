@@ -16,7 +16,7 @@ import net.minecraft.block.SoundType;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
-import net.instantbuidlings.procedures.Place_snakespawnProcedure;
+import net.instantbuidlings.procedures.PlaceautodoorProcedure;
 import net.instantbuidlings.InstantbuidlingsModElements;
 
 import java.util.List;
@@ -62,7 +62,7 @@ public class AutodoorBlock extends InstantbuidlingsModElements.ModElement {
 				$_dependencies.put("y", y);
 				$_dependencies.put("z", z);
 				$_dependencies.put("world", world);
-				Place_snakespawnProcedure.executeProcedure($_dependencies);
+				PlaceautodoorProcedure.executeProcedure($_dependencies);
 			}
 		}
 	}

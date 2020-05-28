@@ -796,6 +796,196 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "autodoor"
+    },
+    {
+      "name": "Placep1",
+      "type": "procedure",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "placep_1",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "int"
+          },
+          {
+            "name": "y",
+            "type": "int"
+          },
+          {
+            "name": "z",
+            "type": "int"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Placep2",
+      "type": "procedure",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "placep_2",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "int"
+          },
+          {
+            "name": "y",
+            "type": "int"
+          },
+          {
+            "name": "z",
+            "type": "int"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Placep3",
+      "type": "procedure",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "placep_3",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "int"
+          },
+          {
+            "name": "y",
+            "type": "int"
+          },
+          {
+            "name": "z",
+            "type": "int"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Placep4",
+      "type": "procedure",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "placep_4",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "int"
+          },
+          {
+            "name": "y",
+            "type": "int"
+          },
+          {
+            "name": "z",
+            "type": "int"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Placep5",
+      "type": "procedure",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "placep_5",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "int"
+          },
+          {
+            "name": "y",
+            "type": "int"
+          },
+          {
+            "name": "z",
+            "type": "int"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Pixel1",
+      "type": "block",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pixel_1"
+    },
+    {
+      "name": "P2",
+      "type": "block",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "p_2"
+    },
+    {
+      "name": "P3",
+      "type": "block",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "p_3"
+    },
+    {
+      "name": "P4",
+      "type": "block",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "p_4"
+    },
+    {
+      "name": "P5",
+      "type": "block",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "p_5"
     }
   ],
   "variable_elements": [],
@@ -803,23 +993,28 @@
   "language_map": {
     "en_us": {
       "block.instantbuidlings.oldchurch": "Old Church",
-      "block.instantbuidlings.villagerhouse": "Villager House",
       "block.instantbuidlings.docks": "Docks",
       "block.instantbuidlings.gate": "Gate",
       "block.instantbuidlings.windmill": "Windmill",
       "block.instantbuidlings.barracks": "Barracks",
       "block.instantbuidlings.guardpost": "GuardPost",
       "block.instantbuidlings.snakespawn": "Snake Spawn",
-      "block.instantbuidlings.fountain": "Fountain",
       "block.instantbuidlings.waterfall": "Waterfall",
       "block.instantbuidlings.strangechurch": "Strange Church",
       "block.instantbuidlings.tower": "Tower",
-      "block.instantbuidlings.housetwo": "House two",
       "block.instantbuidlings.tree": "Tree",
-      "block.instantbuidlings.autodoor": "Redstone Door",
-      "block.instantbuidlings.boat": "Boat",
+      "block.instantbuidlings.p_5": "Pixel Art 5",
       "block.instantbuidlings.bridge": "Bridge",
       "block.instantbuidlings.wall": "Wall",
+      "block.instantbuidlings.p_4": "Pixel Art 4",
+      "block.instantbuidlings.p_3": "Pixel Art 3",
+      "block.instantbuidlings.p_2": "Pixel Art 2",
+      "block.instantbuidlings.villagerhouse": "Villager House",
+      "block.instantbuidlings.fountain": "Fountain",
+      "block.instantbuidlings.pixel_1": "Pixel Art 1",
+      "block.instantbuidlings.housetwo": "House two",
+      "block.instantbuidlings.autodoor": "Redstone Door",
+      "block.instantbuidlings.boat": "Boat",
       "block.instantbuidlings.shop": "Shop",
       "block.instantbuidlings.farm": "Redstone Farm",
       "block.instantbuidlings.barn": "Barn",
@@ -829,7 +1024,7 @@
   "workspaceSettings": {
     "modid": "instantbuidlings",
     "modName": "InstantBuidlings",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "author": "chivas477",
     "websiteURL": "https://mcreator.net",
     "disableForgeVersionCheck": true,
@@ -838,8 +1033,8 @@
     "dependencies": [],
     "dependants": [],
     "mcreatorDependencies": [],
-    "currentGenerator": "1.14.4",
-    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "currentGenerator": "forge-1.14.4",
+    "credits": "chivas477",
     "modElementsPackage": "net.instantbuidlings",
     "lockBaseModFiles": false
   },

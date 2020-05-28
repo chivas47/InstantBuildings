@@ -80,7 +80,7 @@
     "inventoryOutSlotIDs": [],
     "inventoryInSlotIDs": [],
     "onBlockPlayedBy": {
-      "name": "Place_snakespawn"
+      "name": "Placeautodoor"
     },
     "spawnWorldTypes": [],
     "restrictionBiomes": [],

@@ -20,7 +20,7 @@
     "Mx": 1.0,
     "My": 1.0,
     "Mz": 1.0,
-    "name": "Redstone Farm",
+    "name": "Pixel Art 3",
     "specialInfo": [],
     "hardness": 1.0,
     "resistance": 10.0,
@@ -80,7 +80,7 @@
     "inventoryOutSlotIDs": [],
     "inventoryInSlotIDs": [],
     "onBlockPlayedBy": {
-      "name": "Placetreefarm"
+      "name": "Placep3"
     },
     "spawnWorldTypes": [],
     "restrictionBiomes": [],

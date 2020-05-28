@@ -16,18 +16,18 @@ import net.minecraft.block.SoundType;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
-import net.instantbuidlings.procedures.PlacetreefarmProcedure;
+import net.instantbuidlings.procedures.Placep2Procedure;
 import net.instantbuidlings.InstantbuidlingsModElements;
 
 import java.util.List;
 import java.util.Collections;
 
 @InstantbuidlingsModElements.ModElement.Tag
-public class FarmBlock extends InstantbuidlingsModElements.ModElement {
-	@ObjectHolder("instantbuidlings:farm")
+public class P2Block extends InstantbuidlingsModElements.ModElement {
+	@ObjectHolder("instantbuidlings:p_2")
 	public static final Block block = null;
-	public FarmBlock(InstantbuidlingsModElements instance) {
-		super(instance, 44);
+	public P2Block(InstantbuidlingsModElements instance) {
+		super(instance, 52);
 	}
 
 	@Override
@@ -39,7 +39,7 @@ public class FarmBlock extends InstantbuidlingsModElements.ModElement {
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
 			super(Block.Properties.create(Material.ROCK).sound(SoundType.GROUND).hardnessAndResistance(1f, 10f).lightValue(0));
-			setRegistryName("farm");
+			setRegistryName("p_2");
 		}
 
 		@Override
@@ -62,7 +62,7 @@ public class FarmBlock extends InstantbuidlingsModElements.ModElement {
 				$_dependencies.put("y", y);
 				$_dependencies.put("z", z);
 				$_dependencies.put("world", world);
-				PlacetreefarmProcedure.executeProcedure($_dependencies);
+				Placep2Procedure.executeProcedure($_dependencies);
 			}
 		}
 	}
